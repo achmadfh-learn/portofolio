@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="nav-container">
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- SECTION -->
+<section class="section">
+    <h1>📬 Contact Me</h1>
+
+    <!-- Contact Info -->
+    <div class="card">
+        <h2>📞 Contact Information</h2>
+
+        <p><i data-feather="phone"></i> &nbsp; <b>+62 812-3456-7890</b></p>
+        <p><i data-feather="mail"></i> &nbsp; <b>yourmail@example.com</b></p>
+        <p><i data-feather="instagram"></i> &nbsp; <b>@yourinstagram</b></p>
+        <p><i data-feather="map-pin"></i> &nbsp; <b>Jakarta Timur, Indonesia</b></p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="card">
+        <h2>💬 Send Me a Message</h2>
+
+        <form class="contact-form" onsubmit="sendToWhatsApp(event)">
+    
+    <label>Name</label>
+    <input type="text" id="wa-name" placeholder="Your name" required>
+
+    <label>Email</label>
+    <input type="email" id="wa-email" placeholder="Your email" required>
+
+    <label>Message</label>
+    <textarea id="wa-message" placeholder="Write your message..." required></textarea>
+
+    <button type="submit">Send via WhatsApp</button>
+</form>
+
+    </div>
+</section>
+<script>
+function sendToWhatsApp(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("wa-name").value;
+    let email = document.getElementById("wa-email").value;
+    let message = document.getElementById("wa-message").value;
+
+    let phone = "6281297018610"; // GANTI NOMOR KAMU
+
+    let url =
+        "https://wa.me/" + phone +
+        "?text=" +
+        "*Form Contact Portfolio*" + "%0A" +
+        "------------------------------" + "%0A" +
+        "*Nama:* " + name + "%0A" +
+        "*Email:* " + email + "%0A" +
+        "*Pesan:* " + "%0A" + message + "%0A";
+
+    window.open(url, "_blank");
+}
+</script>
+
+
+<script src="script.js"></script>
+<script>feather.replace();</script>
+
+</body>
+</html>
