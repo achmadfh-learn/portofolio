@@ -55,7 +55,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px; /* dari 15px -> 40px */
+    padding: 12px 30px;  /* 12px atas–bawah, 40px kiri–kanan */
 }
 
 
