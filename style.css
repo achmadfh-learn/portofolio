@@ -41,7 +41,7 @@ nav ul li a {
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 0.4px;
-    transition: 0.75s ease;
+    transition: 0.30s ease;
 }
 
 nav ul li a:hover {
@@ -100,7 +100,7 @@ nav ul li a:hover {
     border-left: 6px solid #4ed3ff;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 1s ease;
+    transition: all 1,25s ease;
 }
 
 .card.show {
@@ -224,7 +224,7 @@ p {
     color: white;
     cursor: pointer;
     font-size: 16px;
-    transition: 0.75s ease;
+    transition: 0.30s ease;
 }
 
 .contact-form button:hover {
