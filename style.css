@@ -99,7 +99,7 @@ nav ul li a:hover {
 
 .card.show {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
 }
 
 .card h2 {
