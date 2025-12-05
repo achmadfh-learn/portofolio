@@ -63,8 +63,8 @@ nav ul li a:hover {
 /* ===================== HERO ===================== */
 .hero {
     text-align: center;
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 40px;
     animation: fadeIn 2s ease;
 }
 
@@ -273,6 +273,14 @@ p {
 #hand-animation {
 width: 80px;
 height: 80px;
+display: inline-block;
+vertical-align: middle;
+ }
+
+ #animal-animation {
+    
+width: 250px;
+height: 250px;
 display: inline-block;
 vertical-align: middle;
  }
