@@ -48,6 +48,9 @@ nav ul li a:hover {
     color: #4ed3ff;
     transform: translateY(-2px);
 }
+.menu-btn {
+    display: none;
+}
 
 /* ===================== HERO ===================== */
 .hero {

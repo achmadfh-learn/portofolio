@@ -11,3 +11,7 @@ function fadeScroll() {
 
 window.addEventListener("scroll", fadeScroll);
 fadeScroll();
+function toggleMenu() {
+    const navMenu = document.getElementById("nav-menu");
+    navMenu.classList.toggle("show");
+}
