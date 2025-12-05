@@ -100,7 +100,7 @@ nav ul li a:hover {
     border-left: 6px solid #4ed3ff;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 1,25s ease;
+    transition: all 1.25s ease;
 }
 
 .card.show {
