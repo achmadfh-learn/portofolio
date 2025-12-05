@@ -27,11 +27,32 @@
 <!-- HERO -->
 <section class="hero fade-in">
     <img src="img/profile.png" alt="Profile">
-    <h1>👋 Welcome to My Digital Portfolio</h1>
+    <h1><div id="hand-animation"></div>Welcome to My Digital Portfolio</h1>
+    <div id="animal-animation"></div>
     <p>Hi! I'm <b>Achmad Farhan Hilal</b>. Nice to meet you!</p>
 </section>
 
+
+
 <script src="script.js"></script>
+<script>
+  lottie.loadAnimation({
+    container: document.getElementById('hand-animation'), // ID div-nya
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'animation/hand_wave.json' // arahkan ke file JSON kamu
+  });
+</script>
+<script>
+  lottie.loadAnimation({
+    container: document.getElementById('animal-animation'), // ID div-nya
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'animation/welcomeanimation.json' // arahkan ke file JSON kamu
+  });
+</script>
 
 </body>
 </html>
