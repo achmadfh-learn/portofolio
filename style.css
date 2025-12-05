@@ -36,12 +36,12 @@ nav ul {
 }
 
 nav ul li a {
-    color: #cfeaff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 0.4px;
-    transition: 0.25s ease;
+    transition: 0.75s ease;
 }
 
 nav ul li a:hover {
@@ -65,7 +65,7 @@ nav ul li a:hover {
     text-align: center;
     padding-top: 160px;
     padding-bottom: 80px;
-    animation: fadeIn 1s ease;
+    animation: fadeIn 2s ease;
 }
 
 .hero img {
@@ -100,7 +100,7 @@ nav ul li a:hover {
     border-left: 6px solid #4ed3ff;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 .card.show {
@@ -224,7 +224,7 @@ p {
     color: white;
     cursor: pointer;
     font-size: 16px;
-    transition: 0.25s ease;
+    transition: 0.75s ease;
 }
 
 .contact-form button:hover {
