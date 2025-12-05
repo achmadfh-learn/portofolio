@@ -140,6 +140,9 @@ p {
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
     .section {
         padding: 60px 20px 50px; /* sebelumnya 130px */
     }
