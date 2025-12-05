@@ -51,6 +51,12 @@ nav ul li a:hover {
 .menu-btn {
     display: none;
 }
+nav .nav-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
 
 /* ===================== HERO ===================== */
 .hero {
